@@ -3,7 +3,7 @@
   "rom": "Pokemon Emerald Seaglass (v2.1).gba",
   "platform": "gba",
   "method": "Decoded GBA 4bpp tile sheets and palettes from the game's tileset records with tools/gbagfx.py, retaining only tilesets whose tile-sheet art is coherent. Raw metatiles.bin and attributes.bin are retained where present, but composed metatile renders are not published because the tile/palette pairing could not be verified. Pokémon front, back, and shiny sprites were decoded from inline SpeciesInfo records and palette-applied. Object-event overworld sheets were LZ77/4bpp decoded; they are shown in a neutral palette, not the game's original display palette.",
-  "credits": "Nemo622 (as identified by supplied project context)",
+  "credits": "Nemo622",
   "assets": [
     {
       "type": "overworld",
